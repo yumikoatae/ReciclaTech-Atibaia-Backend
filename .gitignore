@@ -1,0 +1,27 @@
+# Ambiente virtual
+venv/
+.env
+
+# Arquivos do Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.log
+
+# Config do Django
+db.sqlite3
+*.pot
+*.pyc
+
+# Config local
+.env
+*.swp
+*.swo
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+

@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: lixo-eletronico-backend
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn core.wsgi
+    plan: free
+    autoDeploy: true
+
