@@ -8,6 +8,7 @@ router.register(r'postos', PostoDeColetaViewSet)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', include(coleta.urls)),
+    path('api/', include(router.urls)),
+
 ]
 
