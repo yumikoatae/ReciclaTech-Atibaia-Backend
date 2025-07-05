@@ -13,7 +13,7 @@ SECRET_KEY = 'django-insecure-u$&rd99(eaf4a*lce8rl!=xqk1p+coe)df-lhk(ap!2zaa-3(=
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['reciclatech-atibaia-backend.onrender.com']
 
 
 # Application definition
